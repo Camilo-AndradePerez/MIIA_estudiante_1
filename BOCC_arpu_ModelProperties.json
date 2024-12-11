@@ -1,0 +1,110 @@
+{
+   "creationTimeStamp": "2024-05-10T19:00:00.000Z",
+   "createdBy": "jairo.castillo",
+   "modifiedTimeStamp": "2024-05-10T19:00:00.000Z",
+   "modifiedBy": "leonardo.minapolo",
+   "id": "mnbchudj-10o6-4ju8-063d-cvbnm12345j8",
+   "name": "BOCC_ARPU_NC",
+   "description": "Este modelo predice el monto de ARPU de un cliente nuevo.",
+   "scoreCodeType": "python",
+   "algorithm": "Redes Neuronales",
+   "function": "regression",
+   "modeler": "Jairo Castillo",
+   "trainCodeType": "python",
+   "predictionVariable": "cartera_extraordinaria_adq",
+   "targetVariable": "ARPU",
+   "targetEvent": "",
+   "targetLevel": "regression",
+   "tool": "Python 3",
+   "toolVersion": "3.11",
+   "copiedFrom": "BOCC_ARPU-CLIENTES_NUEVOS_(1.0)",
+   "externalUrl": "https://github.com/adldigitallabs/",
+   "modelVersionName": "3.1",
+   "custom properties": [
+      {
+         "name": "ADL_ACRE",
+         "value": "1000003 Ingenieria",
+         "type": "string"
+      },
+      {
+         "name": "ADL_ARES",
+         "value": "1000001 Analitica Core",
+         "type": "string"
+      },
+      {
+         "name": "ADL_ARUS",
+         "value": "1000003 BOCC",
+         "type": "string"
+      },
+      {
+         "name": "DS_ESMD",
+         "value": "1000001 Activo",
+         "type": "string"
+      },
+      {
+         "name": "DS_MTMD",
+         "value": "1000012 Error absoluto medio (MAE Mean Absolute Error) 100000, 1000014 Raiz del error cuadrático medio (RMSE Root Mean Square Error) 120000, 1000016 R² ajustado 0.87",
+         "type": "string"
+      },
+      {
+         "name": "DS_NVMD",
+         "value": "1000002 Táctico",
+         "type": "string"
+      },
+      {
+         "name": "DS_PRMD",
+         "value": "1000005 Mensual",
+         "type": "string"
+      },
+      {
+         "name": "DS_TAMD",
+         "value": "1000001 Supervisado",
+         "type": "string"
+      },
+      {
+         "name": "DS_TPAN",
+         "value": "1000003 Predictiva",
+         "type": "string"
+      },
+      {
+         "name": "DS_TEMA",
+         "value": "1000001 Automático",
+         "type": "string"
+      },
+      {
+         "name": "DS_TPMD",
+         "value": "1000001 Business Analytics  (BA)",
+         "type": "string"
+      },
+      {
+         "name": "DS_FEDI",
+         "value": "45017",
+         "type": "date"
+      },
+      {
+         "name": "DS_FEVE",
+         "value": "44834",
+         "type": "date"
+      },
+      {
+         "name": "DS_FFCL",
+         "value": "44834",
+         "type": "date"
+      },
+      {
+         "name": "DS_FFVL",
+         "value": "44834",
+         "type": "date"
+      },
+      {
+         "name": "DS_FIMO",
+         "value": "INTERFAZ.RECUPERACION_TEMP_TOTAL.aaaa.aaaamm, ODS_STAG.ODS_FINMES_ATAHORROS.Paaaamm, ODS_STAG.ATCRM_FULL1.aaaammdd, ODS_STAG.ODS_STAG-ODS_ATCARTERA-Saaaammdd-aaaammdd_hhmm, ODS_STAG.ODS_STAG-FD_ATTARCREDITO-Saaaammdd-aaaammdd_hhmm, INTERFAZ.TIPO_03.aaaa_mm\nINTERFAZ.TIPO_05.aaaa_mm, INTERFAZ.TIPO_08.aaaa_mm",
+         "type": "string"
+      },
+      {
+         "name": "M_REMA_INDM",
+         "value": "Error absoluto medio (MAE Mean Absolute Error): 100000",
+         "type": "string"
+      }
+   ]
+}

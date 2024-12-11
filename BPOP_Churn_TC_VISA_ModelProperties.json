@@ -1,0 +1,110 @@
+{
+   "creationTimeStamp": "2024-08-21T11:00:00.000Z",
+   "createdBy": "freddy.rincon",
+   "modifiedTimeStamp": "2024-08-21T11:00:00.000Z",
+   "modifiedBy": "carlos.valderrama",
+   "id": "8iuj3827-10o6-4ju8-063d-nu78jsdr7163",
+   "name": "BPOP_CHURN_TC_VISA",
+   "description": "Este modelo predice la probabilidad de que un cliente de tarjeta de credito Visa la cancele.",
+   "scoreCodeType": "python",
+   "algorithm": "Decision Tree",
+   "function": "classification",
+   "modeler": "Freddy Rincon",
+   "trainCodeType": "python",
+   "predictionVariable": "cartera_extraordinaria_adq",
+   "targetVariable": "TC_VISA_churn",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Python 3",
+   "toolVersion": "3.11",
+   "copiedFrom": "BPOP_PROPENSION-EMPRESAS_ACTIVOS_PRED_XGB_M(1.0)",
+   "externalUrl": "https://github.com/adldigitallabs/",
+   "modelVersionName": "3.2",
+   "custom properties": [
+      {
+         "name": "ADL_ACRE",
+         "value": "1000002 Analitica Digital",
+         "type": "string"
+      },
+      {
+         "name": "ADL_ARES",
+         "value": "1000004 Dataops",
+         "type": "string"
+      },
+      {
+         "name": "ADL_ARUS",
+         "value": "1000001 BPOP",
+         "type": "string"
+      },
+      {
+         "name": "DS_ESMD",
+         "value": "1000003 Piloto",
+         "type": "string"
+      },
+      {
+         "name": "DS_MTMD",
+         "value": "100004 Especificidad (Specificity) 49%, 1000001 Exactitud (Accuracy) 60%, 1000005 Medida-F (F-Score) 55%",
+         "type": "string"
+      },
+      {
+         "name": "DS_NVMD",
+         "value": "1000002 Táctico",
+         "type": "string"
+      },
+      {
+         "name": "DS_PRMD",
+         "value": "1000006 Bimestral",
+         "type": "string"
+      },
+      {
+         "name": "DS_TAMD",
+         "value": "1000001 Supervisado",
+         "type": "string"
+      },
+      {
+         "name": "DS_TPAN",
+         "value": "1000003 Predictiva",
+         "type": "string"
+      },
+      {
+         "name": "DS_TEMA",
+         "value": "1000001 Automático",
+         "type": "string"
+      },
+      {
+         "name": "DS_TPMD",
+         "value": "1000001 Business Analytics  (BA)",
+         "type": "string"
+      },
+      {
+         "name": "DS_FEDI",
+         "value": "45017",
+         "type": "date"
+      },
+      {
+         "name": "DS_FEVE",
+         "value": "44834",
+         "type": "date"
+      },
+      {
+         "name": "DS_FFCL",
+         "value": "44834",
+         "type": "date"
+      },
+      {
+         "name": "DS_FFVL",
+         "value": "44834",
+         "type": "date"
+      },
+      {
+         "name": "DS_FIMO",
+         "value": "INTERFAZ.RECUPERACION_TEMP_TOTAL.aaaa.aaaamm, ODS_STAG.ODS_FINMES_ATAHORROS.Paaaamm, ODS_STAG.ATCRM_FULL1.aaaammdd, ODS_STAG.ODS_STAG-ODS_ATCARTERA-Saaaammdd-aaaammdd_hhmm, ODS_STAG.ODS_STAG-FD_ATTARCREDITO-Saaaammdd-aaaammdd_hhmm, INTERFAZ.TIPO_03.aaaa_mm\nINTERFAZ.TIPO_05.aaaa_mm, INTERFAZ.TIPO_08.aaaa_mm",
+         "type": "string"
+      },
+      {
+         "name": "M_REMA_INDM",
+         "value": "Especificidad (Specificity): 49%",
+         "type": "string"
+      }
+   ]
+}
